@@ -8,6 +8,13 @@ import pybullet as p
 import random
 import numpy as np
 
+import sys
+sys.path.append('/home/felixw/large_human_demo/kitchen-worlds/pybullet_planning')
+sys.path.append('/home/felixw/large_human_demo/kitchen-worlds/pddlstream')
+sys.path.append('/home/felixw/large_human_demo/kitchen-worlds/pybullet_planning/pybullet_tools')
+
+from pybullet_planning import pybullet_tools
+
 from pybullet_tools.utils import set_random_seed, connect, enable_preview, \
     disconnect, draw_pose, set_all_static, wait_if_gui, remove_handles, unit_pose, get_sample_fn, pairwise_collision, \
     set_camera_pose, add_line, get_point, BLACK, get_name, CLIENTS, get_client, link_from_name, \
