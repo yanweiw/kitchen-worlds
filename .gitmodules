@@ -3,10 +3,14 @@
 	url = https://github.com/Learning-and-Intelligent-Systems/lisdf
 [submodule "pybullet_planning"]
 	path = pybullet_planning
-	url = git@github.com:zt-yang/pybullet_planning.git
+	url = git@github.com/yanweiw/pybullet_planning.git
+	branch = main_felix
+	# url = git@github.com:zt-yang/pybullet_planning.git
 [submodule "assets/models"]
 	path = assets/models
-	url = git@github.com:zt-yang/kitchen-models.git
+	# url = git@github.com:zt-yang/kitchen-models.git
+	url = git@github.com:yanweiw/kitchen-models.git
+	branch = main_felix
 [submodule "pddlstream"]
 	path = pddlstream
 	url = git@github.com:zt-yang/pddlstream.git
