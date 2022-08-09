@@ -10,3 +10,6 @@
 	path = pybullet_planning
 	url = git@github.com:yanweiw/pybullet_planning.git
 
+[submodule "assets/models"]
+	path = assets/models
+	url = git@github.com:yanweiw/kitchen-models.git
